@@ -1,5 +1,5 @@
 .menu {
-    background-color: #333;
+    background-color:rgb(0, 139, 41);
     overflow: hidden;
   }
   
@@ -19,7 +19,6 @@
   }
   
   .menu a.active {
-    background-color: #04AA6D;
     color: white;
   }
   
