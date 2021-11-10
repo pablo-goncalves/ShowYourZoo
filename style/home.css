@@ -1,3 +1,7 @@
+body {
+  background-image: url("../media/background.jpg");
+  background-size: cover;
+}
 
 .menu {
     background-color:rgb(0, 139, 41);
@@ -26,6 +30,9 @@
   .menu .icon {
     display: none;
   }
+  .tickets{
+   background-color:darkgreen;
+  }
   
   .nieuws{
     background-color: rgb(0,139,41);
@@ -39,6 +46,7 @@
     width: 25%;
     height: 1000px;
     margin-top: 0%;
+    border-radius: 5px;
   }
 .logo{
   height: 90px;
@@ -53,18 +61,16 @@
 .foto1{
   width: 75%;
   float:right;
-  min-height: 200px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  border-radius: 5px;
+  
 }
 .sociale{
-  text-align: center;
+  text-align:center;
   word-spacing: 100px;
   font-style: italic;
   font-size: 120%;
-  
+  background-color: lightgray;
+  box-shadow: lightgray;
 }
 .socialefoto1{
   width: 10%;
@@ -77,10 +83,6 @@
   margin-left: 1%;
   margin-bottom: 2%;
   cursor: pointer;
-}
-.socialecss{
-border: rgb(0, 139, 41) solid;
-border-spacing: 10%;
 }
 .nieuwsknop{
   height: 100%;
