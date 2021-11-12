@@ -1,31 +1,61 @@
-#banner {
-width: 100%;
-height: 10%;
-}
-.menu {
-    background-color:rgb(0, 139, 41);
-    overflow: hidden;
-  }
+  .menu {
+      background-color:rgb(0, 139, 41);
+      overflow: hidden;
+    }
+    
+    .menu a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .menu a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .menu a.active {
+      color: white;
+    }
+    
+    .menu .icon {
+      display: none;
+    }
   
-  .menu a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+    .lijst {
+      padding: 10px;
+      border: solid black 1px;
+      width: min-content;
+      align-items: center;
+      margin: 20px;
+      border-radius: 5px;
+      
+    }
   
-  .menu a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+    .lijst > div {
   
-  .menu a.active {
-    color: white;
-  }
+      padding:5px;
+    }
   
-  .menu .icon {
-    display: none;
-  }
+    .lijst > div:hover {
+  
+      transform: scale(1.02);
+      transition: 0.3s;
+  
+    }
+  
+    .lijst > div > input {
+      padding: 10px;
+      width: 250px;
+    }
+    
+    .lijst > div > textarea {
+      padding: 10px;
+      width: 250px;
+      height: 200px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
