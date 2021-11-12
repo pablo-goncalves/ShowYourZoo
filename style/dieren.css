@@ -5,6 +5,7 @@
   .menu {
     background-color:rgb(0, 139, 41);
     overflow: hidden;
+    border-radius: 5px ;
   }
   .menu a {
     float: left;
@@ -25,7 +26,9 @@
   .menu .icon {
     display: none;
   }
-
+  .tickets{
+    background-color:darkgreen;
+   }
 body {
     background-color: #f1f1f1;
     padding: 20px;
