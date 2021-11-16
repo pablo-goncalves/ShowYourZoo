@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket pagina</title>
+    <link rel= "stylesheet" href="../style/tickets.css">
+</head>
+<body>
+  <div class="menu" id="menu">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">Dieren </a>
+    <a href="contact.html">Contact</a>
+    <a href="#about">Over Ons</a>
+    <a class="tickets" href=""> tickets</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <img class="logo" src="../media/Omaha_Henry_Doorly_Zoo.webp">
+    <h1>Welkom op de ticketpagina</h1>
+    <h2 id="tekst1">Hier kunt u al uw tickets kopen</h2>
+      <div id="tickets">Selecteer hier uw tijdsslot</div>
+      <form>
+        <input list="tijden" name="tijden">
+        <datalist id="tijden">
+          <option value="10:30">
+          <option value="11:30">
+          <option value="12:30">
+          <option value="13:30">
+        </datalist>
+       <div>Selecteer de datum</div>
+        <input type="date"/>
+      </form>
+      
+      
+</body>
+</html>
